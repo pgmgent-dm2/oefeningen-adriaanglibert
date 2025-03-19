@@ -1,0 +1,25 @@
+{% macro link(href, target = '_self', title) %}
+	<a href="{{ href }}" target="{{ target }}" {% if target == "_blank" %} rel="noopener noreferrer" {% endif %}>
+		{{ title }}
+	</a>
+{% endmacro %}
+
+{% macro button(label, variant = 'primary', type = "button") %}
+	{% switch variant %}
+		{% case "primary" %}
+			{% set buttonClasses = 'p-4 inline-flex bg-primary' %}
+		{% case "secondary" %}
+			{% set buttonClasses = 'p-4 inline-flex bg-primary' %}
+		{% default %}
+			{% set buttonClasses = 'p-4 inline-flex bg-primary' %}
+	{% endswitch %}
+
+	<button class="btn btn--{{ variant }} {{buttonClasses }}" type="{{ type }}">{{ label }}</button>
+{% endmacro %}
+
+{% macro responsiveImage(image, alt) %}
+	<picture>
+		<source srcset="{{ image.getUrl('banner') }}" media="(min-width: 75em)">
+		<img src="{{ image.getUrl('thumbnail') }}" alt="{{ alt ?? image.title }}"/>
+	</picture>
+{% endmacro %}

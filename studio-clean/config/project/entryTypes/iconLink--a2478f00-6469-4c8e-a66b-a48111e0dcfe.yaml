@@ -1,0 +1,56 @@
+color: lime
+fieldLayouts:
+  a4d655a0-0b85-4862-af53-d7aac5588fe4:
+    cardView:
+      - 'layoutElement:f13dd07f-4f3d-4f82-b3da-c56eb3378c33'
+      - 'layoutElement:cdb56f05-daef-4be1-a2c7-efaa74e71926'
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            dateAdded: '2025-03-13T09:38:32+00:00'
+            elementCondition: null
+            fieldUid: 34f55299-5fa5-48c6-8134-8ecfe8c51925 # Icon
+            handle: null
+            includeInCards: true
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: f13dd07f-4f3d-4f82-b3da-c56eb3378c33
+            userCondition: null
+            warning: null
+            width: 25
+          -
+            dateAdded: '2025-03-13T09:38:32+00:00'
+            elementCondition: null
+            fieldUid: 60948141-e7aa-4691-98b5-d6a41822b018 # Link
+            handle: null
+            includeInCards: true
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: cdb56f05-daef-4be1-a2c7-efaa74e71926
+            userCondition: null
+            warning: null
+            width: 75
+        name: Content
+        uid: e12bf71d-564b-43f7-8834-749b18b176e9
+        userCondition: null
+handle: iconLink
+hasTitleField: false
+icon: link
+name: 'Icon Link'
+showSlugField: false
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+titleFormat: '{href.label}'
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

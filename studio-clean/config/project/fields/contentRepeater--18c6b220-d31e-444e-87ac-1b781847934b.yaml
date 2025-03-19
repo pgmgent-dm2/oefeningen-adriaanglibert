@@ -1,0 +1,40 @@
+columnSuffix: null
+handle: contentRepeater
+instructions: null
+name: 'Content Repeater'
+searchable: false
+settings:
+  createButtonLabel: null
+  defaultIndexViewMode: cards
+  entryTypes:
+    -
+      __assoc__:
+        -
+          - uid
+          - 97fda5af-407c-4253-88dc-9201bdcb7484 # Cards Block
+    -
+      __assoc__:
+        -
+          - uid
+          - a3247bc0-c84b-4a33-8bb1-0fa7060ebe93 # Rows Block
+    -
+      __assoc__:
+        -
+          - uid
+          - 72903583-53c5-412b-b7a4-aeda7453e030 # Banner Block
+    -
+      __assoc__:
+        -
+          - uid
+          - 67819995-33b3-4146-babb-7544a6fa5da6 # Rich Text Block
+  includeTableView: false
+  maxEntries: null
+  minEntries: null
+  pageSize: 50
+  propagationKeyFormat: null
+  propagationMethod: all
+  showCardsInGrid: false
+  viewMode: cards
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Matrix

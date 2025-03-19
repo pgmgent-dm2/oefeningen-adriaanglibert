@@ -1,0 +1,23 @@
+{% extends "_layouts/_nav-footer.twig" %}
+
+{% block main %}
+	<header class="header">
+		{% include "_components/_heading.twig" with {
+			myCustomTitle: title ?? null
+		} %}
+		<hr>
+	</header>
+
+	<div>
+		{% block content %}{% endblock %}
+	</div>
+
+	<section>
+		<div>
+			{% block leftSide %}{% endblock %}
+		</div>
+		<div>
+			{% block rightSide %}{% endblock %}
+		</div>
+	</section>
+{% endblock %}

@@ -1,0 +1,9 @@
+baseUrl: $SECONDARY_SITE_URL
+enabled: '1'
+handle: studioCleanEn
+hasUrls: true
+language: en
+name: 'Studio Clean EN'
+primary: false
+siteGroup: 0a43a7be-eece-46ae-aed4-f59cd0ed3650 # Studio Clean
+sortOrder: 2

@@ -1,0 +1,10 @@
+<footer>
+	Footer yo!
+
+	{% for socialLink in socialLinks %}
+		<a href="{{ socialLink.href.url }}">
+			{{ socialLink.iconField }}
+			{{ socialLink.href.label }}
+		</a>
+	{% endfor %}
+</footer>

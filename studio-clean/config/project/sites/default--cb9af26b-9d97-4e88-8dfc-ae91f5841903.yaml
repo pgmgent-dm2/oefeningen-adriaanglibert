@@ -1,0 +1,8 @@
+baseUrl: $PRIMARY_SITE_URL
+handle: default
+hasUrls: true
+language: nl-BE
+name: 'Studio Clean'
+primary: true
+siteGroup: 0a43a7be-eece-46ae-aed4-f59cd0ed3650 # Studio Clean
+sortOrder: 1

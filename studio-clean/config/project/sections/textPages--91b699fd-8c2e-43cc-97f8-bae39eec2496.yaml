@@ -1,0 +1,33 @@
+defaultPlacement: end
+enableVersioning: true
+entryTypes:
+  -
+    uid: 48c04ff9-8061-4b8a-98f1-383837089727 # Text Page
+handle: textPages
+maxAuthors: 1
+name: 'Text Pages'
+previewTargets:
+  -
+    __assoc__:
+      -
+        - label
+        - 'Primary entry page'
+      -
+        - urlFormat
+        - '{url}'
+      -
+        - refresh
+        - '1'
+propagationMethod: all
+siteSettings:
+  457fe23e-c489-407c-acdb-7141642fc34c: # Studio Clean EN
+    enabledByDefault: true
+    hasUrls: true
+    template: text.twig
+    uriFormat: '{slug}'
+  cb9af26b-9d97-4e88-8dfc-ae91f5841903: # Studio Clean
+    enabledByDefault: true
+    hasUrls: true
+    template: text.twig
+    uriFormat: '{slug}'
+type: channel

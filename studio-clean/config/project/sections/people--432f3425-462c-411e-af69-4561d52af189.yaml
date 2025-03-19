@@ -1,0 +1,36 @@
+defaultPlacement: end
+enableVersioning: true
+entryTypes:
+  -
+    uid: d3f22fe4-76d9-43d3-8192-63f64897d305 # Person
+handle: people
+maxAuthors: 1
+name: People
+previewTargets:
+  -
+    __assoc__:
+      -
+        - label
+        - 'Primary entry page'
+      -
+        - urlFormat
+        - '{url}'
+      -
+        - refresh
+        - '1'
+propagationMethod: all
+siteSettings:
+  457fe23e-c489-407c-acdb-7141642fc34c: # Studio Clean EN
+    enabledByDefault: true
+    hasUrls: false
+    template: null
+    uriFormat: null
+  cb9af26b-9d97-4e88-8dfc-ae91f5841903: # Studio Clean
+    enabledByDefault: true
+    hasUrls: false
+    template: null
+    uriFormat: null
+structure:
+  maxLevels: 1
+  uid: 94075f9e-909c-4e1c-b80c-2fed811bbc0b
+type: structure

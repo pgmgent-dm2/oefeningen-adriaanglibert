@@ -1,0 +1,36 @@
+defaultPlacement: end
+enableVersioning: true
+entryTypes:
+  -
+    uid: 9a4ee412-c231-4b79-9c2a-7ad494f66345 # Links
+handle: navigation
+maxAuthors: 1
+name: Navigation
+previewTargets:
+  -
+    __assoc__:
+      -
+        - label
+        - 'Primary entry page'
+      -
+        - urlFormat
+        - '{url}'
+      -
+        - refresh
+        - '1'
+propagationMethod: all
+siteSettings:
+  457fe23e-c489-407c-acdb-7141642fc34c: # Studio Clean EN
+    enabledByDefault: true
+    hasUrls: false
+    template: null
+    uriFormat: null
+  cb9af26b-9d97-4e88-8dfc-ae91f5841903: # Studio Clean
+    enabledByDefault: true
+    hasUrls: false
+    template: null
+    uriFormat: null
+structure:
+  maxLevels: null
+  uid: eb56ee1b-cc8d-4e45-9858-e25e9ee846a7
+type: structure

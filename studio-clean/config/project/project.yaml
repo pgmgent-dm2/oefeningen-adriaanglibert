@@ -1,0 +1,140 @@
+dateModified: 1741859102
+elementSources:
+  craft\elements\Entry:
+    -
+      key: '*'
+      type: native
+    -
+      key: singles
+      type: native
+    -
+      heading: Channels
+      type: heading
+    -
+      key: 'section:3a1d64bf-6c83-4e49-9c39-a3f9d962a861' # News
+      type: native
+    -
+      key: 'section:91b699fd-8c2e-43cc-97f8-bae39eec2496' # Text Pages
+      type: native
+    -
+      key: 'section:aad2f7d1-e786-459a-ae8c-3b796e4e3dc4' # Dynamic Page
+      type: native
+    -
+      heading: Structures
+      type: heading
+    -
+      key: 'section:432f3425-462c-411e-af69-4561d52af189' # People
+      type: native
+    -
+      key: 'section:b0b317b4-ce63-494e-836c-fcc84f967532' # Projects
+      type: native
+    -
+      heading: Settings
+      type: heading
+    -
+      defaultSort:
+        - structure
+        - asc
+      defaultViewMode: ''
+      disabled: false
+      key: 'section:fa7a2a5b-995b-4547-9003-a29dd5f6db62' # Navigation
+      tableAttributes:
+        - status
+        - postDate
+        - expiryDate
+        - link
+      type: native
+    -
+      heading: ''
+      type: heading
+email:
+  fromEmail: info@adriaan.be
+  fromName: 'Studio Clean'
+  transportType: craft\mail\transportadapters\Sendmail
+fs:
+  audio:
+    hasUrls: true
+    name: Audio
+    settings:
+      path: '@webroot/assets/audio'
+    type: craft\fs\Local
+    url: '@web/assets/audio'
+  media:
+    hasUrls: true
+    name: Media
+    settings:
+      path: '@webroot/assets/media'
+    type: craft\fs\Local
+    url: '@web/assets/media'
+  pdf:
+    hasUrls: true
+    name: PDF
+    settings:
+      path: '@webroot/assets/pdf'
+    type: craft\fs\Local
+    url: '@web/assets/pdf'
+meta:
+  __names__:
+    0a43a7be-eece-46ae-aed4-f59cd0ed3650: 'Studio Clean' # Studio Clean
+    2aa1791a-29d7-44d2-9837-1f2ab36392c6: Audio # Audio
+    2aac35a5-989c-42bc-897c-db0a9c777ccc: 'Section Selector' # Section Selector
+    2c43add7-778f-4a9b-a55e-4787a76a1580: 'Limited Text' # Limited Text
+    2d7ebb49-9f52-46f5-b115-6e7ec81d2b75: Images # Images
+    2e95471e-21e6-4477-b1fe-39bdae9a8ce3: 'Dynamic Page' # Dynamic Page
+    2f1c7ce2-dfb5-46f7-8a8e-d64948f06591: 'Icon Links' # Icon Links
+    3a1d64bf-6c83-4e49-9c39-a3f9d962a861: News # News
+    5ac1173f-4a1e-4054-9764-07cfcd325574: 'Blog Page' # Blog Page
+    7e77a686-7e42-48c7-b531-14069e22d121: 'Projects Page' # Projects Page
+    07efc8c7-2c23-4332-b99f-826635f8c023: 'Rich Text' # Rich Text
+    8d34a3c1-c377-4624-8ad0-3760305a9218: Media # Media
+    9a4ee412-c231-4b79-9c2a-7ad494f66345: Links # Links
+    18c6b220-d31e-444e-87ac-1b781847934b: 'Content Repeater' # Content Repeater
+    34f55299-5fa5-48c6-8134-8ecfe8c51925: Icon # Icon
+    48c04ff9-8061-4b8a-98f1-383837089727: 'Text Page' # Text Page
+    55b1b17b-3a3a-4e74-a5a6-8e16a1d1e3d5: Image # Image
+    91b699fd-8c2e-43cc-97f8-bae39eec2496: 'Text Pages' # Text Pages
+    97fda5af-407c-4253-88dc-9201bdcb7484: 'Cards Block' # Cards Block
+    432f3425-462c-411e-af69-4561d52af189: People # People
+    457fe23e-c489-407c-acdb-7141642fc34c: 'Studio Clean EN' # Studio Clean EN
+    500a549c-8e37-4fb0-bb7b-c38ba202296d: PDF # PDF
+    793b8f0c-c982-4261-87cd-a919b8169d45: Thumbnail # Thumbnail
+    2431e82f-e2e9-4324-a927-dbfc08d11ee3: 'Landing Page' # Landing Page
+    7833fd76-bf03-48fb-b050-9ef2bb60de3b: 'Simple Text' # Simple Text
+    17740ba6-469a-46bf-99cf-fd203313f2d9: 'Home Page' # Home Page
+    843244eb-f817-40a2-a6c2-1cff1a2cd774: 'About Page' # About Page
+    2483831d-c902-4e5a-8030-4852d16ad852: Banner # Banner
+    60948141-e7aa-4691-98b5-d6a41822b018: Link # Link
+    67819995-33b3-4146-babb-7544a6fa5da6: 'Rich Text Block' # Rich Text Block
+    72903583-53c5-412b-b7a4-aeda7453e030: 'Banner Block' # Banner Block
+    a9ce7e06-fed8-4ef5-a06c-6f111c101900: 'Entry Selector' # Entry Selector
+    a53eaa22-dbca-4ec7-a738-9b32abd94851: 'Category Selector' # Category Selector
+    a2478f00-6469-4c8e-a66b-a48111e0dcfe: 'Icon Link' # Icon Link
+    a3247bc0-c84b-4a33-8bb1-0fa7060ebe93: 'Rows Block' # Rows Block
+    aad2f7d1-e786-459a-ae8c-3b796e4e3dc4: 'Dynamic Page' # Dynamic Page
+    b0b317b4-ce63-494e-836c-fcc84f967532: Projects # Projects
+    c7a0f081-3599-4faa-a0e8-81d26c233ea6: 'Detail Page' # Detail Page
+    cb9af26b-9d97-4e88-8dfc-ae91f5841903: 'Studio Clean' # Studio Clean
+    cf659dfa-21b7-483e-bed9-53e225283734: 'Grid Page' # Grid Page
+    d3f22fe4-76d9-43d3-8192-63f64897d305: Person # Person
+    dfd5ede2-6ce0-4a9f-8700-d807e5888cca: Contact # Contact
+    eefe5263-44ad-4dcb-a593-2c6e45e147bb: Simple # Simple
+    fa7a2a5b-995b-4547-9003-a29dd5f6db62: Navigation # Navigation
+plugins:
+  ckeditor:
+    edition: standard
+    enabled: true
+    schemaVersion: 3.0.0.0
+system:
+  edition: solo
+  live: true
+  name: 'Studio Clean'
+  retryDuration: null
+  schemaVersion: 5.6.0.2
+  timeZone: Europe/Brussels
+users:
+  allowPublicRegistration: false
+  defaultGroup: null
+  photoSubpath: null
+  photoVolumeUid: null
+  require2fa: false
+  requireEmailVerification: true

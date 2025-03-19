@@ -1,0 +1,33 @@
+defaultPlacement: end
+enableVersioning: true
+entryTypes:
+  -
+    uid: c7a0f081-3599-4faa-a0e8-81d26c233ea6 # Detail Page
+handle: news
+maxAuthors: 1
+name: News
+previewTargets:
+  -
+    __assoc__:
+      -
+        - label
+        - 'Primary entry page'
+      -
+        - urlFormat
+        - '{url}'
+      -
+        - refresh
+        - '1'
+propagationMethod: all
+siteSettings:
+  457fe23e-c489-407c-acdb-7141642fc34c: # Studio Clean EN
+    enabledByDefault: true
+    hasUrls: true
+    template: detail.twig
+    uriFormat: 'news/{slug}'
+  cb9af26b-9d97-4e88-8dfc-ae91f5841903: # Studio Clean
+    enabledByDefault: true
+    hasUrls: true
+    template: detail.twig
+    uriFormat: 'nieuws/{slug}'
+type: channel

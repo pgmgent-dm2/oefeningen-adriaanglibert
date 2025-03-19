@@ -1,0 +1,33 @@
+defaultPlacement: end
+enableVersioning: true
+entryTypes:
+  -
+    uid: cf659dfa-21b7-483e-bed9-53e225283734 # Grid Page
+handle: projectsPage
+maxAuthors: 1
+name: 'Projects Page'
+previewTargets:
+  -
+    __assoc__:
+      -
+        - label
+        - 'Primary entry page'
+      -
+        - urlFormat
+        - '{url}'
+      -
+        - refresh
+        - '1'
+propagationMethod: all
+siteSettings:
+  457fe23e-c489-407c-acdb-7141642fc34c: # Studio Clean EN
+    enabledByDefault: true
+    hasUrls: true
+    template: grid.twig
+    uriFormat: '{slug}'
+  cb9af26b-9d97-4e88-8dfc-ae91f5841903: # Studio Clean
+    enabledByDefault: true
+    hasUrls: true
+    template: grid.twig
+    uriFormat: '{slug}'
+type: single

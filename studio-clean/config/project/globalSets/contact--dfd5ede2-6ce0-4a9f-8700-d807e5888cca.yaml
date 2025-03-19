@@ -1,0 +1,28 @@
+fieldLayouts:
+  e2754918-e2ad-4004-bb12-eaacf2815b72:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            dateAdded: '2025-03-13T09:40:36+00:00'
+            elementCondition: null
+            fieldUid: 2f1c7ce2-dfb5-46f7-8a8e-d64948f06591 # Icon Links
+            handle: socialLinks
+            includeInCards: false
+            instructions: null
+            label: 'Social Links'
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 9a058dc8-ce9c-483b-abb9-209d4a837d92
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 2e745902-ef00-49a5-978d-b3264e28b763
+        userCondition: null
+handle: contact
+name: Contact
+sortOrder: 1

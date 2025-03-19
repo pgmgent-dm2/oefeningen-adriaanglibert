@@ -1,0 +1,120 @@
+color: cyan
+fieldLayouts:
+  2c269aa1-a3a1-4596-ac79-a0cd7ca37523:
+    cardView:
+      - type
+      - postDate
+      - 'layoutElement:6bf799dd-88db-4940-b52b-e773721b4d85'
+      - 'layoutElement:842ea137-f89c-42e4-81ff-706cf8765be5'
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            dateAdded: '2025-02-27T09:53:49+00:00'
+            disabled: false
+            elementCondition: null
+            id: null
+            includeInCards: false
+            inputType: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            providesThumbs: false
+            readonly: false
+            required: true
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: 992c0141-c07b-4c9d-a939-e7b77e90a67c
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2025-02-27T10:02:26+00:00'
+            elementCondition: null
+            fieldUid: 2c43add7-778f-4a9b-a55e-4787a76a1580 # Limited Text
+            handle: null
+            includeInCards: true
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 6bf799dd-88db-4940-b52b-e773721b4d85
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2025-02-27T10:02:26+00:00'
+            elementCondition: null
+            fieldUid: 55b1b17b-3a3a-4e74-a5a6-8e16a1d1e3d5 # Image
+            handle: null
+            includeInCards: true
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 842ea137-f89c-42e4-81ff-706cf8765be5
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2025-02-27T10:02:26+00:00'
+            elementCondition: null
+            fieldUid: 07efc8c7-2c23-4332-b99f-826635f8c023 # Rich Text
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 00725c60-3c9b-439e-9020-621b71d4f916
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2025-02-27T10:07:31+00:00'
+            elementCondition: null
+            fieldUid: a53eaa22-dbca-4ec7-a738-9b32abd94851 # Category Selector
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 5bab2bb1-4215-4d15-9505-3e2fdeaf77da
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 4a705ea7-8857-47c4-8538-57a15dc17f1e
+        userCondition: null
+handle: detailPage
+hasTitleField: true
+icon: newspaper
+name: 'Detail Page'
+showSlugField: true
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: language
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: language

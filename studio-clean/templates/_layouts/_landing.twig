@@ -1,0 +1,53 @@
+{% extends "_layouts/_nav-footer.twig" %}
+{% import "_macros/_general.twig" as general %}
+
+{% block main %}
+	<section>
+		{% for socialLink in socialLinks %}
+			<a href="{{ socialLink.href.url }}">
+				{{ socialLink.iconField }}
+				{{ socialLink.href.label }}
+			</a>
+		{% endfor %}
+
+	</section>
+
+	<section>
+		{% include "_components/_heading.twig" with {
+            myCustomTitle: entry.simpleText ?? entry.title
+        } %}
+
+		{{ entry.sectionSelector }}
+		{% set posts = craft.entries().section(entry.sectionSelector).all() %}
+
+		{% for post in posts %}
+			<a href="{{ post.url }}">
+				{{ post.title }}
+			</a>
+		{% endfor %}
+	</section>
+
+	<section>
+		<h2>Macro's</h2>
+		{% set title = 'Link' %}
+
+		{% include "_components/_link.twig" with {
+			href: "link.com",
+			target: '_blank'
+		} %}
+
+		{{ general.link('https://spele.nl', '_blank', 'Online spelletjes') }}
+		{{ general.link('spell', null, 'Online spelletjes 2') }}
+		{{ general.button('Hamburger') }}
+		{{ general.button('Hamburger', 'secondary') }}
+	</section>
+
+	<section>
+		<h2>SEO</h2>
+
+		{{ entry.metaTitle }}
+		{{ entry.metaDescription }}
+
+		{{ general.responsiveImage(entry.metaImage.one(), 'Custom alt') }}
+	</section>
+{% endblock %}
