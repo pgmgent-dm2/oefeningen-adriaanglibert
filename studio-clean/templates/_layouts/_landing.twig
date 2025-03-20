@@ -50,4 +50,12 @@
 
 		{{ general.responsiveImage(entry.metaImage.one(), 'Custom alt') }}
 	</section>
+
+	{% include "_blocks/richTextBlock.twig" with {
+		title: 'Goedemorgen!'
+	} %}
+
+	{% for block in entry.contentRepeater.all() %}
+		{% include "_blocks/"~block.type~".twig" ignore missing %}
+	{% endfor %}
 {% endblock %}
