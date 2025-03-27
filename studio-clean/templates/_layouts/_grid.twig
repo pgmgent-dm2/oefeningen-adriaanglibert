@@ -1,0 +1,14 @@
+{% set items = craft.entries.section('projects').relatedTo(category).all() %}
+
+
+<h1>
+	{{ category.title }}
+</h1>
+
+{% for item in items %}
+	{{ item.title }}
+
+	{% for cat in item.categorySelector.all() %}
+		{{ cat.title }}
+	{% endfor %}
+{% endfor %}
